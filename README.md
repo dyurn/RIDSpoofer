@@ -46,6 +46,11 @@ With that feature, `m` Remote IDs are spoofed around the specified coordinates. 
 
 
 
+### 4. Spoof a drone with automated movement
+This script spoofs a single drone and moves it automatically in a human like pattern around the provided coordinates.
+
+`$ sudo python3 ./autopilot_spoof.py -i <interface-name> -l '<latitude> <longitude>'`
+
 ### Script Flags:
 
 The script can be customized with the following parameters.
