@@ -1,4 +1,4 @@
-#to set interface in monitor mode
+# to set interface in monitor mode
 INTERFACE=$1
 
 ip link set $INTERFACE down
